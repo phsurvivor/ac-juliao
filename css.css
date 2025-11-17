@@ -1,0 +1,52 @@
+header {
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  display: flex;
+  justify-content: space-around;
+  background-color: beige;
+}
+header nav {
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+}
+main{
+    padding-top: 80px;
+    display: flex;
+    align-items: center;
+}
+.text{
+    padding-left: 60px;
+}
+img{
+    width: 800px;
+}
+.barrinhas{
+    display:none;
+}
+@media (max-width: 700px) {
+    img{
+    width: 100%;
+}
+main{
+    display: flex;
+    flex-direction: column-reverse;
+}
+  header {
+    justify-content: flex-start;
+    padding-left: 30px;
+  }
+  .barrinhas{
+        display: flex;
+        position: fixed;
+        right: 0px;
+        align-self: center;
+}
+.barrinhas img{
+    width:50px;
+}
+  .itens{
+    display:none;
+  }
+}
