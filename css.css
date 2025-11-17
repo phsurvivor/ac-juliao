@@ -49,4 +49,8 @@ main{
   .itens{
     display:none;
   }
+  .text{
+    padding-left: 0px;
 }
+}
+
